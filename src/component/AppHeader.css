@@ -1,0 +1,18 @@
+.navBar {
+  height: 60px;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
+
+.logo {
+  float: left;
+  height: 6vmin;
+  pointer-events: none;
+}
+
+.userProfile{
+  float: right;
+  padding: 10px;
+  text-align: right;
+}
