@@ -12,7 +12,7 @@ class App extends React.Component {
         <div className='appHeader'>
           <AppHeader />
         </div>
-        <div >
+        <div>
           <Route exact path='/' component={Logon}  />
           <Route exact path='/userWorkArea' component={UserWorkArea} />
         </div>

@@ -4,12 +4,12 @@ import logo from './logo.svg';
 
 class AppHeader extends React.Component{
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      userDisplayName: 'Gaurang Trivedi'
-    };
-  }
+    constructor(props) {
+      super(props);
+      this.state = {
+        userDisplayName: ''
+      };
+    }
 
     render(){
       return (
